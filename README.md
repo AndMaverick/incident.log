@@ -87,6 +87,8 @@ python -m unittest discover -s tests -t . -v
 
 67 tests, with durations and attainment worked out by hand in the test cases. Ruff and mypy strict run in CI on Python 3.10 to 3.13.
 
+**Related repositories:** [agent.trace](https://github.com/AndMaverick/agent.trace) records the run that failed, with its cost and latency. [mao-framework](https://github.com/AndMaverick/mao-framework) has a smaller incident register inside `mao.assure` for governed runs.
+
 MIT licensed. Built by [AndMaverick LLC](https://www.andmaverick.com).
 
 ---
