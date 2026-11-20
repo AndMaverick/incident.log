@@ -1,6 +1,8 @@
 # incident.log
 
-An incident register for AI systems. When one fails, someone has to answer for it, and the answers regulators, customers and your own executives ask for are specific: how long until a person looked, how long until it stopped, whether you hit your own targets, whether a report was due and filed, and whether it will happen again. incident.log keeps those answers as a by product of running the incident, and its postmortems say what they are still missing. Standard library only.
+An AI system fails at two in the morning. By Friday, three people want answers and each wants a different one. The regulator asks whether a report was due and whether you filed it. A customer asks how long until a person looked. Your own executive asks whether it will happen again. If nobody wrote the times down while it was happening, the answers are reconstructed, and reconstructions drift toward flattering.
+
+incident.log is an incident register for AI systems that keeps those answers as a side effect of running the incident: how long until a person looked, how long until it stopped, whether you hit your own targets, whether a report was due and filed. Its postmortems say what they are still missing. Standard library only.
 
 ```
 pip install git+https://github.com/AndMaverick/incident.log
