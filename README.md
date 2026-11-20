@@ -1,6 +1,6 @@
 # incident.log
 
-An AI system fails at two in the morning. By Friday, three people want answers and each wants a different one. The regulator asks whether a report was due and whether you filed it. A customer asks how long until a person looked. Your own executive asks whether it will happen again. If nobody wrote the times down while it was happening, the answers are reconstructed, and reconstructions drift toward flattering.
+Picture an AI system that fails at two in the morning. By Friday, three people want answers and each wants a different one. The regulator asks whether a report was due and whether you filed it. A customer asks how long until a person looked. Your own executive asks whether it will happen again. If nobody wrote the times down while it was happening, the answers are reconstructed, and reconstructions drift toward flattering.
 
 incident.log is an incident register for AI systems that keeps those answers as a side effect of running the incident: how long until a person looked, how long until it stopped, whether you hit your own targets, whether a report was due and filed. Its postmortems say what they are still missing. Standard library only.
 
